@@ -16,5 +16,6 @@
 -(IBAction) enqueueNotification3:(id)sender;
 -(IBAction) enqueueNotification4:(id)sender;
 -(IBAction) enqueueNotification5:(id)sender;
+-(IBAction) showNextNotification:(id)sender;
 
 @end

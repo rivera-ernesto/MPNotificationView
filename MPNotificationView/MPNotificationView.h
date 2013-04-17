@@ -61,6 +61,8 @@ typedef void (^MPNotificationSimpleAction)(MPNotificationView * view);
 + (void)registerNibNameOrClass:(id)nibNameOrClass
         forNotificationsOfType:(NSString *)type;
 
++ (void) showNextNotification;
+
 @end
 
 @protocol MPNotificationViewDelegate <NSObject>
